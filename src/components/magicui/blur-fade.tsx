@@ -14,12 +14,11 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: {
-    top?: string;
-    right?: string;
-    bottom?: string;
-    left?: string;
-  };
+  /** 
+   * Margin for the intersection observer.
+   * Follows tuple format: [top, right, bottom, left]
+   */
+  inViewMargin?: [string?, string?, string?, string?];
   blur?: string;
 }
 
@@ -31,12 +30,12 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = { top: "-50px", bottom: "-50px" },
+  inViewMargin = ["-50px", "0px", "-50px", "0px"], // ✅ tuple format
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
 
-  // ✅ Correct usage of margin as an object
+  // ✅ Correct margin type
   const inViewResult = useInView(ref, {
     once: true,
     margin: inViewMargin,
