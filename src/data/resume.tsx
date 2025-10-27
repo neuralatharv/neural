@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Prathamesh Patil",
+  name: "Pratham",
   initials: "PP",
   url: "https://bento.me/uxbypratham",
   location: "Pune, IN",
@@ -140,7 +140,7 @@ export const DATA = {
   education: [
     {
       school: "Savitribai Phule Pune University, Pune",
-      href: "https://unipune.com",
+      href: "https://beta.unipune.ac.in",
       degree: "Master of Design - Human-Computer Interaction",
       logoUrl: "/sppu.jpg",
       start: "2023",
