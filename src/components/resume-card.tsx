@@ -86,23 +86,29 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
-          {description && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{
-                opacity: isExpanded ? 1 : 0,
-
-                height: isExpanded ? "auto" : 0,
-              }}
-              transition={{
-                duration: 0.7,
-                ease: [0.16, 1, 0.3, 1],
-              }}
-              className="mt-2 text-xs sm:text-sm"
-            >
-              {description}
-            </motion.div>
-          )}
+{description && (
+  <motion.div
+    initial={{ opacity: 0, height: 0 }}
+    animate={{
+      opacity: isExpanded ? 1 : 0,
+      height: isExpanded ? "auto" : 0,
+    }}
+    transition={{
+      duration: 0.7,
+      ease: [0.16, 1, 0.3, 1],
+    }}
+    className="mt-2 text-xs sm:text-sm text-justify"
+  >
+    <ul className="list-disc pl-5 space-y-1">
+      {description
+        .split(" - ")
+        .filter((item) => item.trim() !== "")
+        .map((item, index) => (
+          <li key={index}>{item.trim()}</li>
+        ))}
+    </ul>
+  </motion.div>
+)}
         </div>
       </Card>
     </Link>
