@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Product Designer Specializing in Human-Centered Design",
   summary:
-    "A senior-ready Product Designer and systems-thinker who architects scalable, developer-friendly design solutions. My unique background—combining an [M.Des in Human-Computer Interaction] with a [B.Tech in Computer Science] allows me to act as the critical bridge between executive-level strategy, user advocacy (UX), and developer experience (DX). I specialize in owning the design for complex, multi-tenant B2B and Fintech platforms, from foundational research to C-level stakeholder presentations.",
+    "A senior-ready Product Designer and systems thinker who architects scalable, developer-friendly design solutions. My unique background combining an [M.Des in Human-Computer Interaction](/#education) with a [B.Tech in Computer Science](/#education) allows me to act as the critical bridge between executive-level strategy, user advocacy (UX), and developer experience (DX). I specialize in owning the design for complex, multi-tenant B2B and Fintech platforms, from foundational research to C-level stakeholder presentations.",
   avatarUrl: "/me.png",
   skills: [ 
     "Design System Architecture",
