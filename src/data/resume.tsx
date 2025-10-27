@@ -12,18 +12,25 @@ export const DATA = {
   summary:
     "A senior-ready Product Designer and systems thinker who architects scalable, developer-friendly design solutions. My unique background combining an [M.Des in Human-Computer Interaction](/#) with a [B.Tech in Computer Science and Engineering](/#) allows me to act as the critical bridge between executive-level strategy, user advocacy (UX), and developer experience (DX). I specialize in owning the design for complex, multi-tenant B2B and Fintech platforms, from foundational research to C-level stakeholder presentations.",
   avatarUrl: "/me.png",
-  skills: [ 
-    "Design System Architecture",
-    "Product Thinking",
-    "User-Centered Design",
-    "Business Acumen",
-  ],
-    Tools: [ 
-    "Figma",
-    "Framer",
-    "Shadcn-ui",
-    "Magic UI",
-  ],
+skills: [
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Tailwind CSS",
+  "Framer Motion",
+  "Node.js",
+  "Express",
+],
+
+tools: [
+  "Figma",
+  "Notion",
+  "Framer",
+  "VS Code",
+  "GitHub",
+  "Linear",
+],
+
   navbar: [
     { href: "https://bento.me/uxbypratham", icon: HomeIcon, label: "Home" },
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
