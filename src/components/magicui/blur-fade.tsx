@@ -14,10 +14,7 @@ interface BlurFadeProps {
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  /** 
-   * CSS margin shorthand for the in-view observer
-   * Example: "0px 0px -50px 0px"
-   */
+  /** CSS-style margin string for viewport margin (rootMargin equivalent) */
   inViewMargin?: string;
   blur?: string;
 }
@@ -30,12 +27,12 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "0px 0px -50px 0px", // ✅ single string format
+  // default: move in when 50px before entering viewport
+  inViewMargin = "0px 0px -50px 0px",
   blur = "6px",
 }: BlurFadeProps) => {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement | null>(null);
 
-  // ✅ Works across all recent Framer Motion versions
   const inViewResult = useInView(ref, {
     once: true,
     margin: inViewMargin,
