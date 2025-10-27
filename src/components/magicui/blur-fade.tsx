@@ -15,10 +15,10 @@ interface BlurFadeProps {
   yOffset?: number;
   inView?: boolean;
   /** 
-   * Margin for the intersection observer.
-   * Follows tuple format: [top, right, bottom, left]
+   * CSS margin shorthand for the in-view observer
+   * Example: "0px 0px -50px 0px"
    */
-  inViewMargin?: [string?, string?, string?, string?];
+  inViewMargin?: string;
   blur?: string;
 }
 
@@ -30,12 +30,12 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = ["-50px", "0px", "-50px", "0px"], // ✅ tuple format
+  inViewMargin = "0px 0px -50px 0px", // ✅ single string format
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
 
-  // ✅ Correct margin type
+  // ✅ Works across all recent Framer Motion versions
   const inViewResult = useInView(ref, {
     once: true,
     margin: inViewMargin,
