@@ -8,22 +8,15 @@ export const DATA = {
   location: "Pune, IN",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Product Designer Specializing in Human-Centered Design",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "A senior-ready Product Designer and systems-thinker who architects scalable, developer-friendly design solutions. My unique background—combining an M.Des in Human-Computer Interaction with a B.Tech in Computer Science—allows me to act as the critical bridge between executive-level strategy, user advocacy (UX), and developer experience (DX). I specialize in owning the design for complex, multi-tenant B2B and Fintech platforms, from foundational research to C-level stakeholder presentations.",
   avatarUrl: "/me.png",
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+  skills: [ 
+    "Design System Architecture",
+    "Product Thinking",
+    "User-Centered Design",
+    "Business Acumen",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -35,14 +28,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Imuric",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/uxbypratham/",
         icon: Icons.linkedin,
 
         navbar: true,
