@@ -35,7 +35,10 @@ const BlurFade = ({
 
   const inViewResult = useInView(ref, {
     once: true,
-    margin: inViewMargin,
+    // FIX: Cast to 'any' to bypass a known type-bug in some framer-motion
+    // versions where 'margin' is incorrectly typed. The hook still
+    // accepts a string at runtime.
+    margin: inViewMargin as any,
   });
 
   const isInView = !inView || inViewResult;
