@@ -87,7 +87,12 @@ tools: [
       start: "Aug 2025",
       end: "Present",
       description:
-        "- Architected an advanced, 3-level variable-based design system in Figma. This system enables 18+ themes (light/dark modes, 9 color variations) to be generated from a single-screen design, driving massive gains in design consistency and development efficiency. - Standardized the design-to-dev handoff process by creating a 40-page, single-source-of-truth Figma structure, significantly improving clarity and collaboration for researchers, developers, and QAs. - Led the end-to-end, sole design for the core B2B Fintech lead-exchange platform. Owned the entire process from research and workflow mapping to prototyping and implementation. - Served as the key design partner for C-level leadership (CTO, CDO) and Tech Leads, translating business goals into functional design, defending decisions based on user research, and navigating complex technical constraints. - Owned the full UX research lifecycle for new features, conducting heuristic evaluations, competitive analysis (5-10 competitors), and validating designs with developers and testers. - Designed a complex, multi-tenant platform accommodating distinct user roles (Admins, Buyers, and Affiliates), ensuring a seamless and intuitive experience for each.",
+        "- Architected an advanced, 3-level variable-based design system in Figma. This system enables 18+ themes (light/dark modes, 9 color variations) to be generated from a single-screen design, driving massive gains in design consistency and development efficiency. 
+         - Standardized the design-to-dev handoff process by creating a 40-page, single-source-of-truth Figma structure, significantly improving clarity and collaboration for researchers, developers, and QAs. 
+         - Led the end-to-end, sole design for the core B2B Fintech lead-exchange platform. Owned the entire process from research and workflow mapping to prototyping and implementation. 
+         - Served as the key design partner for C-level leadership (CTO, CDO) and Tech Leads, translating business goals into functional design, defending decisions based on user research, and navigating complex technical constraints. 
+         - Owned the full UX research lifecycle for new features, conducting heuristic evaluations, competitive analysis (5-10 competitors), and validating designs with developers and testers. 
+         - Designed a complex, multi-tenant platform accommodating distinct user roles (Admins, Buyers, and Affiliates), ensuring a seamless and intuitive experience for each.",
     },
     {
       company: "AdroApex Multiservices",
@@ -99,7 +104,10 @@ tools: [
       start: "January 2025",
       end: "June 2025",
       description:
-        "- Pitched and executed an innovative dual-navigation strategy (by 'Brand' vs. by 'Application') for a B2B e-commerce client ('DSP Equipments'). - This new IA resulted in a significant, client-reported increase in sales within three months of launch and received direct praise for its ease of use. - Gained immediate buy-in from senior leadership by presenting a clear, value-driven case for the user-centric design approach. - Defined the core visual language and created mini-brand guidelines to establish a cohesive brand identity for the client.",
+        "- Pitched and executed an innovative dual-navigation strategy (by 'Brand' vs. by 'Application') for a B2B e-commerce client ('DSP Equipments').
+          - This new IA resulted in a significant, client-reported increase in sales within three months of launch and received direct praise for its ease of use.
+          - Gained immediate buy-in from senior leadership by presenting a clear, value-driven case for the user-centric design approach.
+          - Defined the core visual language and created mini-brand guidelines to establish a cohesive brand identity for the client.",
     },
     {
       company: "Exontric System",
@@ -111,7 +119,8 @@ tools: [
       start: "January 2023",
       end: "May 2023",
       description:
-        "- Led the from-scratch design for the 'Ashwamit Constructions' website, developing a new information architecture to align with user needs. - Created detailed user flow diagrams and wireframes for multiple client websites.",
+        "- Led the from-scratch design for the 'Ashwamit Constructions' website, developing a new information architecture to align with user needs.
+          - Created detailed user flow diagrams and wireframes for multiple client websites.",
     },
     // {
     //   company: "Splunk",
