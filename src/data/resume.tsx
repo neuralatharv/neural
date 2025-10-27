@@ -177,7 +177,7 @@ tools: [
       degree: "Bachelor's Degree of Computer Science and Engineering",
       logoUrl: "/sgu.png",
       start: "2019",
-      end: "2024",
+      end: "2023",
     },
     // {
     //   school: "Maharashtra State Borad - VJCSV,Urun-Ishwarpur",
