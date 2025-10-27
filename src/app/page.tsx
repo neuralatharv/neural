@@ -110,7 +110,8 @@ export default function Page() {
             ))}
           </div>
         </div>
-              <section id="tools">
+      </section>  
+      <section id="tools">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Tools</h2>
