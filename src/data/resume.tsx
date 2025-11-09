@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "AI and Data Science Student",
   summary:
-    "I'm a AI and Data Science student.Studying in ISBM College Of Engineering. ",
+    "Hey this is Atharv Kathe, Pursuing BTech Degree From ISBM College Of Engineering. ",
   avatarUrl: "/me.png",
 skills: [
   "Vibe Coding",
