@@ -11,7 +11,7 @@ export const DATA = {
     "AI and Data Science Student",
   summary:
     "Hey this is Atharv Kathe, Pursuing BTech Degree From ISBM College Of Engineering. ",
-  avatarUrl:"Atharv.png",
+  avatarUrl:"Atharva.png",
 skills: [
   "Vibe Coding",
   "Data Visualizer",
