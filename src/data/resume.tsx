@@ -4,7 +4,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Atharv Kathe",
   initials:"AK",
-  logoUrl: "Atharv.png",
   url: "https://bento.me/uxbypratham",
   location: "Pune, IN",
   locationLink: "https://www.google.com/maps/place/pune",
@@ -12,7 +11,7 @@ export const DATA = {
     "AI and Data Science Student",
   summary:
     "Hey this is Atharv Kathe, Pursuing BTech Degree From ISBM College Of Engineering. ",
-  avatarUrl: "/me.png",
+  avatarUrl: "Atharv.png",
 skills: [
   "Vibe Coding",
   "Data Visualizer",
