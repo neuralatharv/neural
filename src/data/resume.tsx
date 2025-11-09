@@ -2,37 +2,30 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Prathamamesh Patil",
-  initials: "PP",
+  name: "Atharv Kathe",
+  initials: "AK",
   url: "https://bento.me/uxbypratham",
   location: "Pune, IN",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Product Designer Specializing in Human-Centered Design",
+    "AI and Data Science Student",
   summary:
-    "A senior-ready Product Designer and systems thinker who architects scalable, developer-friendly design solutions. My unique background combining an [M.Des in Human-Computer Interaction](/#) with a [B.Tech in Computer Science and Engineering](/#) allows me to act as the critical bridge between executive-level strategy, user advocacy (UX), and developer experience (DX). I specialize in owning the design for complex, multi-tenant B2B and Fintech platforms, from foundational research to C-level stakeholder presentations.",
+    "Information About me",
   avatarUrl: "/me.png",
 skills: [
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Tailwind CSS",
-  "Framer Motion",
-  "Node.js",
-  "Express",
+  "Vibe Coding",
+  "Data Visualizer",
 ],
 
 tools: [
-  "Figma",
-  "Notion",
-  "Framer",
+  "MS Office",
+  "Github",
   "VS Code",
-  "GitHub",
-  "Linear",
+  "Paint",
 ],
 
   navbar: [
-    { href: "https://bento.me/uxbypratham", icon: HomeIcon, label: "Home" },
+    { href: "https://google.com", icon: HomeIcon, label: "Home" },
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
@@ -41,28 +34,28 @@ tools: [
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Imuric",
+        url: "https://github.com/neuralatharv",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/uxbypratham/",
+        url: "https://www.linkedin.com/in/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/prathamesh3221",
+        url: "https://x.com/",
         icon: Icons.x,
 
         navbar: true,
       // },
       // Youtube: {
       //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
+      //   url: "https://youtube.com",
       //   icon: Icons.youtube,
       //   navbar: true,
       },
@@ -78,8 +71,8 @@ tools: [
 
   work: [
     {
-      company: "Roxiler Systems",
-      href: "https://roxiler.com",
+      company: "XYZ",
+      href: "https://google.com",
       badges: [],
       location: "Pune, IN",
       title: "UI UX Designer",
