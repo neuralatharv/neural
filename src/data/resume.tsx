@@ -68,27 +68,6 @@ tools: [
       },
     },
   },
-  export const DATA = {
-  name: "Atharv Kathe",
-  initials: "AK",
-  // ... other properties
-
-  // Make sure this is correctly formatted as a property
-  work: [ 
-    // ... work experience items
-  ],
-
-  // ⭐️ ADDED HOBBIES PROPERTY ⭐️
-  hobbies: [
-    // ... hobbies items
-  ],
-  
-  projects: [
-    // ... projects items
-  ],
-
-  // ... other properties
-}; // <-- ONLY ONE CLOSING BRACE for the DATA object.
   
   work: [
     {
