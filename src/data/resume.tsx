@@ -68,28 +68,28 @@ tools: [
       },
     },
   },
-  // Example: In your DATA definition file
-export const DATA = {
+  export const DATA = {
   name: "Atharv Kathe",
-  // ... existing properties (initials, url, projects, work, etc.)
-  
-  // ⭐️ ADD THE HOBBIES PROPERTY HERE ⭐️
-  hobbies: [
-    {
-      icon: "FaChess", // You would use a component or string for an icon
-      name: "Chess",
-      description: "Playing chess to improve strategic thinking.",
-    },
-    {
-      icon: "FaCamera",
-      name: "Photography",
-      description: "Capturing landscapes and portraits.",
-    },
-    // Add more hobbies...
-  ],
-  // ... rest of the DATA object
-};
+  initials: "AK",
+  // ... other properties
 
+  // Make sure this is correctly formatted as a property
+  work: [ 
+    // ... work experience items
+  ],
+
+  // ⭐️ ADDED HOBBIES PROPERTY ⭐️
+  hobbies: [
+    // ... hobbies items
+  ],
+  
+  projects: [
+    // ... projects items
+  ],
+
+  // ... other properties
+}; // <-- ONLY ONE CLOSING BRACE for the DATA object.
+  
   work: [
     {
       company: "XYZ",
