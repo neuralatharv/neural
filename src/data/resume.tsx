@@ -23,6 +23,12 @@ tools: [
   "VS Code",
   "Paint",
 ],
+  
+  hobby: [
+  "Reading Books",
+  "Learning New Technology",
+  "Hiking",
+    ],
 
   navbar: [
     { href: "https://google.com", icon: HomeIcon, label: "Home" },
