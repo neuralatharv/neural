@@ -68,55 +68,6 @@ tools: [
       },
     },
   },
-  // Define the structure for a single hobby item (Recommended for type safety)
-export interface Hobby {
-  icon: string; // The name of the icon (e.g., 'FaChess')
-  name: string;
-  description: string;
-}
-
-// Assuming your main data interface is called UserData
-// You should ensure this interface includes the 'hobbies' property:
-export interface UserData {
-  // ... existing properties (name, url, location, projects, etc.)
-  
-  // ⭐️ Ensure this property is present ⭐️
-  hobbies: Hobby[]; 
-}
-
-// ----------------------------------------------------
-// Your main DATA object
-// ----------------------------------------------------
-
-// NOTE: Only one export const DATA = { ... } block should exist in this file.
-export const DATA: UserData = {
-  name: "Atharv Kathe",
-  initials: "AK",
-  url: "https://bento.me/uxbypratham",
-  location: "Pune, IN",
-  // ... (other existing properties like contact, projects, etc.)
-
-  // ⭐️ ADD THE HOBBIES DATA HERE ⭐️
-  hobbies: [
-    {
-      icon: "FaChess", 
-      name: "Chess",
-      description: "Playing chess to improve strategic thinking and planning.",
-    },
-    {
-      icon: "FaCamera",
-      name: "Photography",
-      description: "Capturing scenic landscapes and studying visual composition.",
-    },
-    {
-      icon: "FaDumbbell", 
-      name: "Fitness",
-      description: "Regular weightlifting and running for physical and mental health.",
-    },
-  ], // <--- Remember the comma if more properties follow!
-  
-  // ... existing properties (e.g., projects, skills)
-};
   
   work: [
     {
