@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Atharv Kathe",
+  name: "Atharv Kath",
   initials:"AK",
   url: "https://bento.me/uxbypratham",
   location: "Pune, IN",
