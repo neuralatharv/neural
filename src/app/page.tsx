@@ -10,7 +10,6 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
-
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -121,6 +120,10 @@ export default function Page() {
               <BlurFade key={tool} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
                 <Badge key={tool}>{tool}</Badge>
               </BlurFade>
+             ))}
+          </div>
+        </div>
+      </section>
       <section id="hobby">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
