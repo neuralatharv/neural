@@ -69,7 +69,7 @@ tools: [
     },
   },
 
-  work: [
+  hobbies: [
     {
       company: "XYZ",
       href: "https://google.com",
